@@ -76,9 +76,16 @@ then
 fi
 
 #If user entered user, they must have entered password as well
-if [[ "$USER" && ! "$PASSWD"]]
+if [[ "$USER" && ! "$PASSWD" ]]
 then
 	echo "Please enter your password, exiting..."
+	exit 1
+fi
+
+#If user entered password but no username
+if [[ "$PASSWD" && !"$USER" ]]
+then
+	echo "Please enter username if password is entered, exiting..."
 	exit 1
 fi
 
