@@ -68,4 +68,18 @@ do
 	esac
 done
 
+#Check for required arguments
+if [[ ! "$YEAR" || ! "$EMAIL" ]]
+then
+	usageState
+	exit 1
+fi
+
+#If user entered user, they must have entered password as well
+if [[ "$USER" && ! "$PASSWD"]]
+then
+	echo "Please enter your password, exiting..."
+	exit 1
+fi
+
 exit 0
