@@ -89,4 +89,11 @@ then
 	exit 1
 fi
 
+#Check for valid year
+if [[ ! $YEAR -eq 2015 || ! $YEAR -eq 2016 ]]
+then
+	echo "Please enter a valid year (2015 or 2016)"
+	exit 1
+fi
+
 exit 0
