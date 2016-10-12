@@ -19,7 +19,10 @@
 
 #set -o nounset                              # Treat unset variables as an error
 
-
+if [[ -d tempData ]]
+then
+	rm -rf tempData
+fi
 
 
 
