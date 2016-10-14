@@ -19,31 +19,30 @@
 
 #set -o nounset                              # Treat unset variables as an error
 
-#Make sure file path for tar.gz is given
-
-if [[ -z "$1" ]]
-then
-	echo "$0: Missing parameter: Name of tar.gz archive"
-	exit 1
-fi
 
 #Create temp folder
-mkdir tempData
+if [[ ! -d tempData ]]
+then
+	mkdir tempData
+fi
 
+for archive in `ls *.tar.gz`
+do
 #move archive into temp folder
-mv $1 tempData
+mv $archive tempData
 
 #change directory to tempData
 cd tempData
 
 #Unzip tar into temp folder
-tar -xf $1
+tar -xf $archive
 
 #Remove tar archive
-rm $1
+rm $archive
 
 #Return to previous directory
 cd ..
+done
 
 exit 0
 
