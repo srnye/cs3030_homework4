@@ -96,4 +96,12 @@ then
 	exit 1
 fi
 
+#Call wget with year parameter
+chocolatebarnacle_jtn_wget_hw4.sh $YEAR
+
+#Expand tar.gz files
+bash chocolatebarnacle_unzip_kr_hw4.sh
+
+#Loop over files generated and retrieve the first, last, and email columns and create new output file
+
 exit 0
