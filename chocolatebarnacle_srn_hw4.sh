@@ -103,5 +103,9 @@ bash chocolatebarnacle_jtn_wget_hw4.sh $YEAR
 bash chocolatebarnacle_unzip_kr_hw4.sh
 
 #Loop over files generated and retrieve the first, last, and email columns and create new output file
-
+FILES=/tempData/*
+for f in $FILES
+do
+	bash chocolatebarnacle_awk_kr_hw4.awk $f
+done
 exit 0
