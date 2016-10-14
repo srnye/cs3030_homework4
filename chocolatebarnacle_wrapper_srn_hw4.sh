@@ -103,9 +103,16 @@ bash chocolatebarnacle_jtn_wget_hw4.sh $YEAR
 bash chocolatebarnacle_unzip_kr_hw4.sh
 
 #Loop over files generated and retrieve the first, last, and email columns and create new output file
-FILES=/tempData/*
-for f in $FILES
-do
-	bash chocolatebarnacle_awk_kr_hw4.awk $f
-done
+bash chocolatebarnacle_filter_kr_hw4.sh
+
+#Make sure file is zipped
+
+#FTP file to anonymous on server if given no username/pass arguments
+
+#If user provided username and password, FTP to the users home area
+
+#Schedule script using cronjob
+
+#If everything works out correctly, send email to email passed in
+
 exit 0
