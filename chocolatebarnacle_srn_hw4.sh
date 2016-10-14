@@ -56,7 +56,7 @@ do
 			EMAIL=$OPTARG
 			;;
 		u)
-			USER=$OPTARG
+			USERN=$OPTARG
 			;;
 		p)
 			PASSWD=$OPTARG
@@ -76,21 +76,21 @@ then
 fi
 
 #If user entered user, they must have entered password as well
-if [[ "$USER" && ! "$PASSWD" ]]
+if [[ -n "$USERN" && ! "$PASSWD" ]]
 then
 	echo "Please enter your password, exiting..."
 	exit 1
 fi
 
 #If user entered password but no username
-if [[ "$PASSWD" && !"$USER" ]]
+if [[ -n "$PASSWD" && ! "$USERN" ]]
 then
 	echo "Please enter username if password is entered, exiting..."
 	exit 1
 fi
 
 #Check for valid year
-if [[ ! $YEAR -eq 2015 || ! $YEAR -eq 2016 ]]
+if [[ ! $YEAR -eq 2015 && ! $YEAR -eq 2016 ]]
 then
 	echo "Please enter a valid year (2015 or 2016)"
 	exit 1
