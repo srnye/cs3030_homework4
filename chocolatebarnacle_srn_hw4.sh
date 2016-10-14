@@ -97,7 +97,7 @@ then
 fi
 
 #Call wget with year parameter
-chocolatebarnacle_jtn_wget_hw4.sh $YEAR
+bash chocolatebarnacle_jtn_wget_hw4.sh $YEAR
 
 #Expand tar.gz files
 bash chocolatebarnacle_unzip_kr_hw4.sh
