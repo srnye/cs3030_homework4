@@ -27,14 +27,21 @@ then
 	exit 1
 fi
 
-#Move to temp data directory
-#cd tempData
+#Setup filename
+filename=MOCK_DATA_FILTER_$(date +%F_%H:%m)
+
 
 #Loop over data files
 for file in `ls tempData/*.csv`
 do
-	cat  $file |` awk -f $1 >> tempData/MOCK_DATA_FILTER_$(date +%F_%H:%m)`
+	cat  $file |` awk -f $1 >> tempData/$filename`
 done
+
+#zip filtered file
+`gzip tempData/$filename`
+
+#Move and rename zipped file
+mv tempData/$filename.gz $filename.zip
 
 exit 0
 

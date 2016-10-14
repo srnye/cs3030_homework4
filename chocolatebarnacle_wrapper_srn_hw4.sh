@@ -102,10 +102,8 @@ bash chocolatebarnacle_jtn_wget_hw4.sh $YEAR
 #Expand tar.gz files
 bash chocolatebarnacle_unzip_kr_hw4.sh
 
-#Loop over files generated and retrieve the first, last, and email columns and create new output file
-bash chocolatebarnacle_filter_kr_hw4.sh
-
-#Make sure file is zipped
+#Loop over files generated and retrieve the first, last, and email columns and create new output file. Then zip file
+bash chocolatebarnacle_filter_kr_hw4.sh chocolatebarnacle_awk_kr_hw4.awk
 
 #FTP file to anonymous on server if given no username/pass arguments
 
