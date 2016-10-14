@@ -111,6 +111,9 @@ bash chocolatebarnacle_filter_kr_hw4.sh
 
 #If user provided username and password, FTP to the users home area
 
+#Clean up mess
+bash chocolatebarnacle_cleanup_kr_hw4.sh
+
 #Schedule script using cronjob
 
 #If everything works out correctly, send email to email passed in
