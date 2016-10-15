@@ -19,6 +19,12 @@
 
 #set -o nounset                              # Treat unset variables as an error
 
+#Username and Password fron getopts are passed in as $1 and $2
+#in the wrapper script
+
+USERN=$1
+PASSWD=$2
+
 #HOSTNAME of YOUR FTP SERVER
 HOST='137.190.19.102'
 
