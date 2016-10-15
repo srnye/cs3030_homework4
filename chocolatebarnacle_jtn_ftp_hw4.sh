@@ -40,7 +40,7 @@ then
 	echo "Using anonymous FTP account"
 	ftp -inv $HOST << EOF
 	user $AUSER $APASS
-	put $filename.zip retrieval.$$
+	put $filename.zip
 	bye
 EOF
 fi
@@ -52,7 +52,7 @@ then
 	ftp -inv $HOST << EOF
 	user $USERN $PASSWD
 	cd .
-	put $filename.zip retrieval.$$
+	put $filename.zip
 	bye
 EOF
 fi
