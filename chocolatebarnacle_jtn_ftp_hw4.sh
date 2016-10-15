@@ -1,0 +1,51 @@
+#!/bin/bash - 
+#===============================================================================
+#
+#          FILE: chocolatebarnacle_jtn_ftp_hw4.sh
+# 
+#         USAGE: ./chocolatebarnacle_jtn_ftp_hw4.sh 
+# 
+#   DESCRIPTION: 
+# 
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: Jordan Newkirk (), 
+#  ORGANIZATION: 
+#       CREATED: 10/15/2016 11:11
+#      REVISION:  ---
+#===============================================================================
+
+#set -o nounset                              # Treat unset variables as an error
+
+#HOSTNAME of YOUR FTP SERVER
+HOST='137.190.19.102'
+
+#Info for anonymous account
+AUSER='anonymous'
+APASS='anonymous@weber.edu'
+
+#If no username or password are given use anonymous account
+if [[ ! $USERN && ! $PASSWD ]]
+then
+	ftp -inv $HOST << EOF
+	user $AUSER $APASS
+	cd cs3030_homework4
+	get $filename.zip retrieval.$$
+	bye
+EOF
+fi
+
+#If username and password are given use information for ftp
+if [[ -n "$USERN" && -n "$PASSWD" ]]
+then
+	ftp -inv $HOST << EOF
+	user $USERN $PASSWD
+	cd cs3030_homework4
+	get $filename.zip retrieval.$$
+	bye
+EOF
+fi
+
+exit 0
