@@ -106,8 +106,8 @@ bash chocolatebarnacle_unzip_kr_hw4.sh
 bash chocolatebarnacle_filter_kr_hw4.sh chocolatebarnacle_awk_kr_hw4.awk
 
 #FTP file to anonymous on server if given no username/pass arguments
-
 #If user provided username and password, FTP to the users home area
+bash chocolatebarnacle_jtn_ftp_hw4.sh $USERN $PASSWD
 
 #Clean up mess
 bash chocolatebarnacle_cleanup_kr_hw4.sh

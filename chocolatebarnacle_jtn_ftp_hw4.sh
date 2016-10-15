@@ -22,6 +22,8 @@
 #HOSTNAME of YOUR FTP SERVER
 HOST='137.190.19.102'
 
+filename=MOCK_DATA_FILTER_$(date +%F_%H:%m)
+
 #Info for anonymous account
 AUSER='anonymous'
 APASS='anonymous@weber.edu'
@@ -29,9 +31,9 @@ APASS='anonymous@weber.edu'
 #If no username or password are given use anonymous account
 if [[ ! $USERN && ! $PASSWD ]]
 then
+	echo "Using anonymous FTP account"
 	ftp -inv $HOST << EOF
 	user $AUSER $APASS
-	cd cs3030_homework4
 	get $filename.zip retrieval.$$
 	bye
 EOF
@@ -40,9 +42,10 @@ fi
 #If username and password are given use information for ftp
 if [[ -n "$USERN" && -n "$PASSWD" ]]
 then
+	echo "Using $USERN FTP account"
 	ftp -inv $HOST << EOF
 	user $USERN $PASSWD
-	cd cs3030_homework4
+	cd .
 	get $filename.zip retrieval.$$
 	bye
 EOF
