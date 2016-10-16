@@ -1,0 +1,3 @@
+#Every 6 minutes
+*/6 * * * * /home/student/cs3030/homework4/cs3030_homework4/chocolatebarnacle_wrapper_srn_hw4.sh 2016 someemail@gmail.com >/dev/null 2>$1
+
