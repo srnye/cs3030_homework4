@@ -1,0 +1,230 @@
+commit 9b4b9ee293d8ae6957c6ba301613d48e7c692971
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Sat Oct 15 20:03:02 2016 -0600
+
+    fixed if statement
+
+commit 82156e4f5b17001bdb1efcf872d568d6c6c8a853
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Sat Oct 15 19:57:25 2016 -0600
+
+    more echo statements added
+
+commit 609fa023c1a552278f3f6fdd24ba716335363c2d
+Merge: 777d5b6 4786c8f
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Sat Oct 15 19:40:46 2016 -0600
+
+    Merge branch 'master' of https://github.com/srnye/cs3030_homework4/
+    Added final commit of ftp
+
+commit 777d5b69edc308f044da4e68cef14563bd149b6c
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Sat Oct 15 19:40:42 2016 -0600
+
+    Final commit of ftp
+
+commit 4786c8f9e65f4f1af57fdbf440612c23b493370e
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Sat Oct 15 19:16:05 2016 -0600
+
+    added a couple echo statements and added proof of cron job
+
+commit ccad3fe67c8cc4080d8c5a019dda9257e55e608c
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Sat Oct 15 18:24:00 2016 -0600
+
+    added email portion to wrapper
+
+commit ea74ca7f13aae32624e1028d7e6f4977764f21d6
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Sat Oct 15 13:02:02 2016 -0600
+
+    Removed retrieval
+
+commit 9db4d63918750b8877d5e8735a796c5fa7e9bb2d
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Sat Oct 15 12:44:03 2016 -0600
+
+    Fixed from get to put
+
+commit 8f3debe8ac04d1acc607cf7868b1d10481f5f034
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Sat Oct 15 12:25:11 2016 -0600
+
+    "added $usern and $passwd values at beginning"
+
+commit 21be3c1650668295629feeb9efe3368e76593591
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Sat Oct 15 12:18:51 2016 -0600
+
+    commit of ftp script to wrapper and minor ftp change
+
+commit 51126def48a7fe06ccc76f66524bad62646f23c5
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Sat Oct 15 11:39:18 2016 -0600
+
+    Initial commit of ftp may contain bugs
+
+commit 963ebcfdbdd0e70dfc23e49459b014c472fa80b9
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Fri Oct 14 11:01:58 2016 -0600
+
+    Updated filter to zip file as well, and wrapper to work with filter
+
+commit a2c2f5cb24f4861f06f2940588a3f4ff2a001b24
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Fri Oct 14 00:18:24 2016 -0600
+
+    added cleanup script
+
+commit 355a90409209e328a2a4c3333e97eb059fd488cd
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Fri Oct 14 00:16:31 2016 -0600
+
+    added pseudo
+
+commit 29c9366733f1dc893a8b02870c08a5536480dd40
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Fri Oct 14 00:01:11 2016 -0600
+
+    removed old wrapper file
+
+commit 65b2cf4e9668c47c29be7e446e95951dc9a37aa6
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Thu Oct 13 23:58:13 2016 -0600
+
+    renamed wrapper file
+
+commit 88eaef5d68119911602d682afb9d095f42a98082
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Thu Oct 13 23:54:33 2016 -0600
+
+    looped over csv files in tempdata and inserted awk statement for each one
+
+commit 9b4499bcf5caa94abe2f2034cf2c90cd4250e32f
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Thu Oct 13 23:47:58 2016 -0600
+
+    changed exe rights on jordans file
+
+commit 642850d04b42cd4004c8779c43b85c9bdaaa6be6
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Thu Oct 13 23:47:17 2016 -0600
+
+    fixed a couple errors
+
+commit 85e50ef0065ddcf2240cb58c0b078b1ae49ab430
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Thu Oct 13 23:41:53 2016 -0600
+
+    fixed some argument checking
+
+commit a0d6779f35f96727d5c57d238c9b642f33f5933a
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Thu Oct 13 23:34:14 2016 -0600
+
+    added a couple external script calls to wrapper
+
+commit 67c7d637c4392428d7ab337504c3ce763842632b
+Merge: c250b97 ee4e588
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Thu Oct 13 22:40:59 2016 -0600
+
+    Merge branch 'master' of https://github.com/srnye/cs3030_homework4
+    pulling recent commits
+
+commit ee4e588d693f1337483b1f796cb5abe89100245d
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Wed Oct 12 13:43:41 2016 -0600
+
+    Finished code for awk, cleanup, filter, and unzip
+
+commit 38540e5a55da76a0ff4afc7bf2fdd3e53d916da9
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Tue Oct 11 13:16:46 2016 -0600
+
+    Added blank files for my task - Kyle R
+
+commit c250b97d21c8bcc8a6a949b90ab2c56bc35d396e
+Merge: 5f290ea 8a8a129
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Oct 11 13:15:59 2016 -0600
+
+    Merge branch 'master' of https://github.com/srnye/cs3030_homework4
+    First pull
+
+commit 8a8a1299865d4007b979e1c5bb88c3252d2a1d6e
+Merge: d39969a 7e59c0b
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Tue Oct 11 13:15:03 2016 -0600
+
+    Merge branch 'master' of https://github.com/srnye/cs3030_homework4
+    First pull
+
+commit 5f290eaeec3d8de1b745f96939d3ec8aa5a5f86c
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Oct 11 13:14:59 2016 -0600
+
+    added year checking
+
+commit d39969af4e94f3981f281de15449b00f087592bd
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Tue Oct 11 13:14:28 2016 -0600
+
+    First commit of wget by Jordan, Includes error checking
+
+commit 7e59c0b00483cbedacc527804fb2752326a9775a
+Merge: 2385695 689e095
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Tue Oct 11 13:10:06 2016 -0600
+
+    Merge branch 'master' of https://github.com/srnye/cs3030_homework4
+
+commit 689e09517360baae31589aaad5a396a9081eaafa
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Oct 11 13:09:48 2016 -0600
+
+    added additional argument checking
+
+commit 2385695d2b301143b224b7c5fd968a3482b759a0
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Tue Oct 11 13:09:36 2016 -0600
+
+    Added script to unzip the tar archive
+
+commit e3335249e61050a41000b230776f080e87b7c9d7
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Oct 11 13:04:50 2016 -0600
+
+    added argument checking
+
+commit 01be080df316b2b28a16d5cca85824e71ee40389
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Oct 11 12:59:00 2016 -0600
+
+    added getopts
+
+commit 6333a3a40a8a4addf27be599fc3c7f0b235a375f
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Oct 11 12:49:15 2016 -0600
+
+    added usage and help functions
+
+commit 51e0e5d5795525027d2f47484bc7240c877dbc64
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Oct 11 12:37:22 2016 -0600
+
+    Initialized wrapper file
+
+commit 9a29eba379370c586a6f6e8c5fa13dea50e8e5c1
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Tue Oct 11 12:29:11 2016 -0600
+
+    Initial commit with .gitignore for swp files
+
+commit d3594a15aee7ce3097a55b40867e5d44183741ca
+Author: srnye <steven.r.nye@gmail.com>
+Date:   Thu Oct 6 13:07:41 2016 -0600
+
+    Initial commit
