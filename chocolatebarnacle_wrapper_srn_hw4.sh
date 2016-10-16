@@ -111,9 +111,10 @@ bash chocolatebarnacle_jtn_ftp_hw4.sh $USERN $PASSWD
 
 #Clean up mess
 bash chocolatebarnacle_cleanup_kr_hw4.sh
-
-#Schedule script using cronjob
+echo "Mess cleaned"
 
 #If everything works out correctly, send email to email passed in
+mail -s "File Transferred" $EMAIL <<< "Successfully transferred file to FTP 137.190.19.102 server"
+echo "Email sent to $EMAIL"
 
 exit 0
