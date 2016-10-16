@@ -115,5 +115,7 @@ bash chocolatebarnacle_cleanup_kr_hw4.sh
 #Schedule script using cronjob
 
 #If everything works out correctly, send email to email passed in
+mail -s "File Transferred" $EMAIL <<< "Successfully transferred file to FTP 137.190.19.102 server"
+
 
 exit 0
