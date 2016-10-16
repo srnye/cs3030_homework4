@@ -34,7 +34,7 @@ then
 	wget icarus.cs.weber.edu/~hvalle/cs3030/MOCK_DATA_2015.tar.gz
 fi
 
-if [[ ! $YEAR -eq 2015 || ! $YEAR -eq 2016 ]]
+if [[ ! $YEAR -eq 2015 && ! $YEAR -eq 2016 ]]
 then
 	echo "Year must equal 2015 or 2016"
 fi
