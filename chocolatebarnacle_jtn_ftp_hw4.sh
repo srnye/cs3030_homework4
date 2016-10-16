@@ -40,6 +40,7 @@ then
 	echo "Using anonymous FTP account"
 	ftp -inv $HOST << EOF
 	user $AUSER $APASS
+	cd /MockData
 	put $filename.zip
 	bye
 EOF
