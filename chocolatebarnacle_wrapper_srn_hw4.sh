@@ -98,16 +98,20 @@ fi
 
 #Call wget with year parameter
 bash chocolatebarnacle_jtn_wget_hw4.sh $YEAR
+echo "Wget called with year $YEAR"
 
 #Expand tar.gz files
 bash chocolatebarnacle_unzip_kr_hw4.sh
+echo "Tar.gz files expanded"
 
 #Loop over files generated and retrieve the first, last, and email columns and create new output file. Then zip file
 bash chocolatebarnacle_filter_kr_hw4.sh chocolatebarnacle_awk_kr_hw4.awk
+echo "Data filtered"
 
 #FTP file to anonymous on server if given no username/pass arguments
 #If user provided username and password, FTP to the users home area
 bash chocolatebarnacle_jtn_ftp_hw4.sh $USERN $PASSWD
+echo "FTP file sent"
 
 #Clean up mess
 bash chocolatebarnacle_cleanup_kr_hw4.sh
