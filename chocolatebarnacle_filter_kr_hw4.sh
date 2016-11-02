@@ -1,4 +1,4 @@
-#!/bin/bash - 
+#!/bin/bash 
 #===============================================================================
 #
 #          FILE: chocolatebarnacle_filter_kr_hw4.sh
@@ -34,14 +34,14 @@ filename=MOCK_DATA_FILTER_$(date +%F_%H:%m)
 #Loop over data files
 for file in `ls tempData/*.csv`
 do
-	cat  $file |` awk -f $1 >> tempData/$filename`
+	cat  $file |` awk -f $1 >> tempData/$filename.csv`
 done
 
 #zip filtered file
-`gzip tempData/$filename`
+`/usr/bin/zip tempData/$filename tempData/$filename.csv`
 
 #Move and rename zipped file
-mv tempData/$filename.gz $filename.zip
+mv tempData/$filename.zip .
 
 exit 0
 
