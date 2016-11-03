@@ -19,11 +19,15 @@
 
 #set -o nounset                              # Treat unset variables as an error
 
+#Clean up temp data folder
 if [[ -d tempData ]]
 then
 	rm -rf tempData
 fi
 
+
+#Remove filtered data file
+rm *.csv
 
 
 exit 0

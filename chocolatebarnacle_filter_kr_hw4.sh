@@ -34,14 +34,11 @@ filename=MOCK_DATA_FILTER_$(date +%F_%H:%m)
 #Loop over data files
 for file in `ls tempData/*.csv`
 do
-	cat  $file |` awk -f $1 >> tempData/$filename.csv`
+	cat  $file |` awk -f $1 >> $filename.csv`
 done
 
 #zip filtered file
-zip -r tempData/$filename.zip tempData/$filename.csv
-
-#Move and rename zipped file
-mv tempData/$filename.zip .
+zip -r $filename.zip $filename.csv
 
 exit 0
 
