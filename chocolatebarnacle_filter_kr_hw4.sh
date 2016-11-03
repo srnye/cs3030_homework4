@@ -38,7 +38,7 @@ do
 done
 
 #zip filtered file
-`/usr/bin/zip tempData/$filename tempData/$filename.csv`
+zip -r tempData/$filename.zip tempData/$filename.csv
 
 #Move and rename zipped file
 mv tempData/$filename.zip .
