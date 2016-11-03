@@ -1,3 +1,64 @@
+commit 2cbed1891c1ad8b9d76593eb5ff8c9d9eb38c807
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Wed Nov 2 21:43:43 2016 -0600
+
+    Fixed zipping error
+
+commit ae752b5c43445ddf97bb388b8e43aa9764f31a62
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Wed Nov 2 21:30:17 2016 -0600
+
+    Fixed the zip error
+
+commit dc61728356223a07ab714a2193595d721fc5b76b
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Tue Nov 1 18:13:19 2016 -0600
+
+    Modified to zip correctly
+
+commit 0d42f4671baa1fd8f35417f459c7ed0b5900c76b
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Tue Nov 1 12:25:29 2016 -0600
+
+    Readded awk file
+
+commit a04e4c6be3bf58db0680adddfb746328776044b8
+Merge: d5ea53f b2756cb
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Tue Nov 1 12:23:54 2016 -0600
+
+    Merge branch 'master' of https://github.com/srnye/cs3030_homework4
+
+commit d5ea53f208391554f835296e56c5278861c10a0c
+Author: Kyle Richetti <Kylerichetti@mail.weber.edu>
+Date:   Tue Nov 1 12:22:59 2016 -0600
+
+    Removed corrupted awk file for reupload
+
+commit b2756cb1b0e8cbb9c5b15e76fc8316696e1a008f
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Nov 1 12:16:22 2016 -0600
+
+    added rest of descriptions to README
+
+commit 48442c2ea0ba93a971ba123241ec9bc35751064d
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Nov 1 12:01:41 2016 -0600
+
+    added more to README file
+
+commit 1fdac106025c2b8d86fa8b4c79cb14f88a983268
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Nov 1 11:52:02 2016 -0600
+
+    added instruction to README and fixed cron job proof
+
+commit 1502b9ebc13528a9b4fe52dff4e13b242eff0010
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Sat Oct 15 20:03:55 2016 -0600
+
+    added log file
+
 commit 9b4b9ee293d8ae6957c6ba301613d48e7c692971
 Author: Steven R. Nye <stevennye@mail.weber.edu>
 Date:   Sat Oct 15 20:03:02 2016 -0600
